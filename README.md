@@ -1,60 +1,140 @@
-# Image-Processing-and-Computer-vision
-This repository contains 5 experiments implemented using Python and OpenCV for the Image Processing & Computer Vision Lab.
+# 📸 Image Processing & Computer Vision Lab
 
-Tools Used Python OpenCV NumPy Matplotlib
+This repository contains **5 experiments** implemented using **Python** and **OpenCV** as part of the *Image Processing & Computer Vision Lab*.
 
-Folder Structure IP-CV │ ├── Experiment-1.py ├── Experiment-2.py ├── Experiment-3.py ├── Experiment-4.py ├── Experiment-5.py │ ├── input_images │ └── sample.jpg │ └── output_images
+---
 
-Experiment 1: Acquire Image
+## 🛠️ Tools & Technologies
 
-Objective: To read and display an image using OpenCV.
+* Python
+* OpenCV
+* NumPy
+* Matplotlib
 
-Description: The program loads an image from the input_images folder and displays it on the screen using OpenCV functions.
+---
 
-Input: Sample image
+## 📂 Folder Structure
 
-Output: Displayed image and saved output image.
+```
+IP-CV/
+│
+├── Experiment-1.py
+├── Experiment-2.py
+├── Experiment-3.py
+├── Experiment-4.py
+├── Experiment-5.py
+│
+├── input_images/
+│   └── sample.jpg
+│
+└── output_images/
+```
 
-Experiment 2: Sample Quantization
+---
 
-Objective: To reduce the number of intensity levels in an image.
+## 🔬 Experiments
 
-Description: The image is converted into fewer gray levels by dividing pixel values into fixed intervals.
+### 🧪 Experiment 1: Acquire Image
 
-Input: Grayscale image
+**Objective:**
+To read and display an image using OpenCV.
 
-Output: Quantized image with reduced intensity levels.
+**Description:**
+Loads an image from the `input_images` folder and displays it using OpenCV functions.
 
-Experiment 3: Contrast Stretching and Histogram Equalization
+**Input:** Sample image
+**Output:** Displayed image and saved output image
 
-Objective: To enhance the contrast of an image.
+---
 
-Description: Contrast stretching expands the intensity range of an image. Histogram equalization redistributes pixel intensity values for better contrast.
+### 🧪 Experiment 2: Sample Quantization
 
-Input: Grayscale image
+**Objective:**
+To reduce the number of intensity levels in an image.
 
-Output: Contrast enhanced image.
+**Description:**
+Converts the image into fewer gray levels by grouping pixel values into fixed intervals.
 
-Experiment 4: Low Pass and High Pass Filtering
+**Input:** Grayscale image
+**Output:** Quantized image with reduced intensity levels
 
-Objective: To apply smoothing and sharpening filters.
+---
 
-Description: Low pass filtering removes noise and smooths the image. High pass filtering highlights edges and details.
+### 🧪 Experiment 3: Contrast Stretching & Histogram Equalization
 
-Input: Image
+**Objective:**
+To enhance image contrast.
 
-Output: Smoothed image and edge enhanced image.
+**Description:**
 
-Experiment 5: Mean, Median and Gaussian Filtering
+* **Contrast Stretching:** Expands intensity range
+* **Histogram Equalization:** Redistributes pixel values for better visibility
 
-Objective: To remove noise from an image.
+**Input:** Grayscale image
+**Output:** Contrast-enhanced image
 
-Description: Different filters are applied to a noisy image to reduce noise and improve image quality.
+---
 
-Mean Filter – averages pixel values
-Median Filter – removes salt and pepper noise
-Gaussian Filter – smooths image using Gaussian distribution
+### 🧪 Experiment 4: Low Pass & High Pass Filtering
 
-Input: Noisy image
+**Objective:**
+To apply smoothing and sharpening filters.
 
-Output: Filtered images
+**Description:**
+
+* **Low Pass Filter:** Removes noise and smooths the image
+* **High Pass Filter:** Enhances edges and fine details
+
+**Input:** Image
+**Output:** Smoothed image and edge-enhanced image
+
+---
+
+### 🧪 Experiment 5: Mean, Median & Gaussian Filtering
+
+**Objective:**
+To remove noise from an image.
+
+**Description:**
+
+* **Mean Filter:** Averages pixel values
+* **Median Filter:** Removes salt-and-pepper noise
+* **Gaussian Filter:** Smooths image using Gaussian distribution
+
+**Input:** Noisy image
+**Output:** Filtered images with reduced noise
+
+---
+
+## 🚀 How to Run
+
+1. Install required libraries:
+
+   ```bash
+   pip install opencv-python numpy matplotlib
+   ```
+
+2. Run any experiment:
+
+   ```bash
+   python Experiment-1.py
+   ```
+
+---
+
+## ✨ Features
+
+* Beginner-friendly implementations
+* Covers core image processing techniques
+* Clean and modular code structure
+
+---
+
+## 📌 Author
+
+Aditya Singh
+
+---
+
+⭐ *If you found this helpful, consider giving it a star!*
+
